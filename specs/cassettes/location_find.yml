@@ -2,62 +2,6 @@
 http_interactions:
 - request:
     method: get
-    uri: https://us1.locationiq.com/v1/search.php?format=json&key=<LOCATIONIQ_TOKEN>&q=Seattle
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Tue, 19 Mar 2019 15:12:41 GMT
-      Content-Type:
-      - application/json; charset=UTF-8
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Set-Cookie:
-      - __cfduid=d06328c4e980ed5c4177755930a65453c1553008361; expires=Wed, 18-Mar-20
-        15:12:41 GMT; path=/; domain=.locationiq.com; HttpOnly
-      X-Powered-By:
-      - LocationIQ
-      Access-Control-Allow-Origin:
-      - "*"
-      Expect-Ct:
-      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-      Server:
-      - cloudflare
-      Cf-Ray:
-      - 4ba062d3fb8d2a49-SEA
-    body:
-      encoding: ASCII-8BIT
-      string: '[{"place_id":"208918455","licence":"https:\/\/locationiq.com\/attribution","osm_type":"relation","osm_id":"237385","boundingbox":["47.4810022","47.7341357","-122.459696","-122.224433"],"lat":"47.6038321","lon":"-122.3300624","display_name":"Seattle,
-        King County, Washington, USA","class":"place","type":"city","importance":0.80154398538761,"icon":"https:\/\/locationiq.org\/static\/images\/mapicons\/poi_place_city.p.20.png"},{"place_id":"147052395","licence":"https:\/\/locationiq.com\/attribution","osm_type":"way","osm_id":"291707810","boundingbox":["25.1837689","25.1845505","121.4465868","121.4474398"],"lat":"25.18415975","lon":"121.446939985985","display_name":"Seattle,
-        Tamsui, \u5317\u6295\u91cc, Lanweibu, Tamsui District, New Taipei, 251, ROC","class":"landuse","type":"residential","importance":0.31},{"place_id":"59671807","licence":"https:\/\/locationiq.com\/attribution","osm_type":"node","osm_id":"4836954932","boundingbox":["20.7199184","20.7200184","-103.3763786","-103.3762786"],"lat":"20.7199684","lon":"-103.3763286","display_name":"Seattle,
-        Los Maestros, Zapopan, Jalisco, 38901, Mexico","class":"place","type":"neighbourhood","importance":0.31},{"place_id":"76216599","licence":"https:\/\/locationiq.com\/attribution","osm_type":"way","osm_id":"10671266","boundingbox":["41.961198","41.9657274","-121.9226362","-121.922615"],"lat":"41.9641881","lon":"-121.922629","display_name":"Seattle,
-        Dorris, Siskiyou County, California, USA","class":"highway","type":"residential","importance":0.21},{"place_id":"117646473","licence":"https:\/\/locationiq.com\/attribution","osm_type":"way","osm_id":"165271257","boundingbox":["14.6696779","14.6703081","121.0988312","121.0994135"],"lat":"14.6696779","lon":"121.0988312","display_name":"Seattle,
-        Vista Real Classica, Batasan Hills, District II, Quezon City, Metro Manila,
-        1808, Philippines","class":"highway","type":"residential","importance":0.21},{"place_id":"83304635","licence":"https:\/\/locationiq.com\/attribution","osm_type":"way","osm_id":"22919051","boundingbox":["14.6180749","14.6213139","121.0429669","121.0448883"],"lat":"14.6195488","lon":"121.0440164","display_name":"Seattle,
-        Kaunlaran, Cubao, District IV, Quezon City, Metro Manila, 1111, Philippines","class":"highway","type":"residential","importance":0.21},{"place_id":"150638685","licence":"https:\/\/locationiq.com\/attribution","osm_type":"way","osm_id":"307770120","boundingbox":["28.8472133","28.8488011","-111.978911","-111.9779456"],"lat":"28.8482048","lon":"-111.9782727","display_name":"Seattle,
-        Joyas de Kino, Hermosillo, Sonora, Mexico","class":"highway","type":"residential","importance":0.21},{"place_id":"194948519","licence":"https:\/\/locationiq.com\/attribution","osm_type":"way","osm_id":"561843639","boundingbox":["47.4112544","47.4112745","-122.2621269","-122.2608738"],"lat":"47.4112602","lon":"-122.260923","display_name":"Seattle,
-        O''Brien, King County, Washington, 98032, USA","class":"highway","type":"service","importance":0.185},{"place_id":"6129325","licence":"https:\/\/locationiq.com\/attribution","osm_type":"node","osm_id":"661057175","boundingbox":["47.6019734","47.6020734","-122.3399149","-122.3398149"],"lat":"47.6020234","lon":"-122.3398649","display_name":"Seattle,
-        Colman Dock, West Edge, Belltown, Seattle, King County, Washington, 98104,
-        USA","class":"amenity","type":"ferry_terminal","importance":0.111},{"place_id":"187000219","licence":"https:\/\/locationiq.com\/attribution","osm_type":"way","osm_id":"506986989","boundingbox":["51.0219139","51.0220732","4.549491","4.5496973"],"lat":"51.02199295","lon":"4.54959317732394","display_name":"Seattle,
-        4C-4D, Dorp, Bonheiden, Mechelen, Antwerp, Flanders, 2820, Belgium","class":"building","type":"apartments","importance":0.111}]'
-    http_version: 
-  recorded_at: Tue, 19 Mar 2019 15:12:41 GMT
-- request:
-    method: get
     uri: https://us1.locationiq.com/v1/search.php?format=json&key=<LOCATIONIQ_TOKEN>&q=
     body:
       encoding: US-ASCII
@@ -75,7 +19,7 @@ http_interactions:
       message: Bad Request
     headers:
       Date:
-      - Tue, 19 Mar 2019 15:22:45 GMT
+      - Tue, 19 Mar 2019 17:19:03 GMT
       Content-Type:
       - application/json; charset=UTF-8
       Transfer-Encoding:
@@ -83,8 +27,8 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=d096f625114d837bb3866e0220fb8ec1c1553008965; expires=Wed, 18-Mar-20
-        15:22:45 GMT; path=/; domain=.locationiq.com; HttpOnly
+      - __cfduid=d052552f09e87518d6ea1b870b5173f4d1553015943; expires=Wed, 18-Mar-20
+        17:19:03 GMT; path=/; domain=.locationiq.com; HttpOnly
       X-Powered-By:
       - LocationIQ
       Access-Control-Allow-Origin:
@@ -94,10 +38,123 @@ http_interactions:
       Server:
       - cloudflare
       Cf-Ray:
-      - 4ba071943b3fbcb0-SEA
+      - 4ba11bef2cd9bc86-SEA
     body:
       encoding: UTF-8
       string: '{"error":"Invalid Request"}'
     http_version: 
-  recorded_at: Tue, 19 Mar 2019 15:22:46 GMT
+  recorded_at: Tue, 19 Mar 2019 17:19:03 GMT
+- request:
+    method: get
+    uri: https://us1.locationiq.com/v1/search.php?format=json&key=<LOCATIONIQ_TOKEN>&q=Seattle
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 19 Mar 2019 17:19:03 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d072721d16f0475809be98aa306dc27451553015943; expires=Wed, 18-Mar-20
+        17:19:03 GMT; path=/; domain=.locationiq.com; HttpOnly
+      X-Powered-By:
+      - LocationIQ
+      Access-Control-Allow-Origin:
+      - "*"
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 4ba11befef55c987-SEA
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"place_id":"208918455","licence":"https:\/\/locationiq.com\/attribution","osm_type":"relation","osm_id":"237385","boundingbox":["47.4810022","47.7341357","-122.459696","-122.224433"],"lat":"47.6038321","lon":"-122.3300624","display_name":"Seattle,
+        King County, Washington, USA","class":"place","type":"city","importance":0.80154398538761,"icon":"https:\/\/locationiq.org\/static\/images\/mapicons\/poi_place_city.p.20.png"},{"place_id":"147052395","licence":"https:\/\/locationiq.com\/attribution","osm_type":"way","osm_id":"291707810","boundingbox":["25.1837689","25.1845505","121.4465868","121.4474398"],"lat":"25.18415975","lon":"121.446939985985","display_name":"Seattle,
+        Tamsui, \u5317\u6295\u91cc, Lanweibu, Tamsui District, New Taipei, 251, ROC","class":"landuse","type":"residential","importance":0.31},{"place_id":"59671807","licence":"https:\/\/locationiq.com\/attribution","osm_type":"node","osm_id":"4836954932","boundingbox":["20.7199184","20.7200184","-103.3763786","-103.3762786"],"lat":"20.7199684","lon":"-103.3763286","display_name":"Seattle,
+        Los Maestros, Zapopan, Jalisco, 38901, Mexico","class":"place","type":"neighbourhood","importance":0.31},{"place_id":"76216599","licence":"https:\/\/locationiq.com\/attribution","osm_type":"way","osm_id":"10671266","boundingbox":["41.961198","41.9657274","-121.9226362","-121.922615"],"lat":"41.9641881","lon":"-121.922629","display_name":"Seattle,
+        Dorris, Siskiyou County, California, USA","class":"highway","type":"residential","importance":0.21},{"place_id":"117646473","licence":"https:\/\/locationiq.com\/attribution","osm_type":"way","osm_id":"165271257","boundingbox":["14.6696779","14.6703081","121.0988312","121.0994135"],"lat":"14.6696779","lon":"121.0988312","display_name":"Seattle,
+        Vista Real Classica, Batasan Hills, District II, Quezon City, Metro Manila,
+        1808, Philippines","class":"highway","type":"residential","importance":0.21},{"place_id":"83304635","licence":"https:\/\/locationiq.com\/attribution","osm_type":"way","osm_id":"22919051","boundingbox":["14.6180749","14.6213139","121.0429669","121.0448883"],"lat":"14.6195488","lon":"121.0440164","display_name":"Seattle,
+        Kaunlaran, Cubao, District IV, Quezon City, Metro Manila, 1111, Philippines","class":"highway","type":"residential","importance":0.21},{"place_id":"150638685","licence":"https:\/\/locationiq.com\/attribution","osm_type":"way","osm_id":"307770120","boundingbox":["28.8472133","28.8488011","-111.978911","-111.9779456"],"lat":"28.8482048","lon":"-111.9782727","display_name":"Seattle,
+        Joyas de Kino, Hermosillo, Sonora, Mexico","class":"highway","type":"residential","importance":0.21},{"place_id":"194948519","licence":"https:\/\/locationiq.com\/attribution","osm_type":"way","osm_id":"561843639","boundingbox":["47.4112544","47.4112745","-122.2621269","-122.2608738"],"lat":"47.4112602","lon":"-122.260923","display_name":"Seattle,
+        O''Brien, King County, Washington, 98032, USA","class":"highway","type":"service","importance":0.185},{"place_id":"6129325","licence":"https:\/\/locationiq.com\/attribution","osm_type":"node","osm_id":"661057175","boundingbox":["47.6019734","47.6020734","-122.3399149","-122.3398149"],"lat":"47.6020234","lon":"-122.3398649","display_name":"Seattle,
+        Colman Dock, West Edge, Belltown, Seattle, King County, Washington, 98104,
+        USA","class":"amenity","type":"ferry_terminal","importance":0.111},{"place_id":"187000219","licence":"https:\/\/locationiq.com\/attribution","osm_type":"way","osm_id":"506986989","boundingbox":["51.0219139","51.0220732","4.549491","4.5496973"],"lat":"51.02199295","lon":"4.54959317732394","display_name":"Seattle,
+        4C-4D, Dorp, Bonheiden, Mechelen, Antwerp, Flanders, 2820, Belgium","class":"building","type":"apartments","importance":0.111}]'
+    http_version: 
+  recorded_at: Tue, 19 Mar 2019 17:19:03 GMT
+- request:
+    method: get
+    uri: https://us1.locationiq.com/v1/search.php?format=json&key=<LOCATIONIQ_TOKEN>&q=Beijing
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 19 Mar 2019 17:24:23 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d2f7fc0b906f938a7532d5825eb2e26891553016263; expires=Wed, 18-Mar-20
+        17:24:23 GMT; path=/; domain=.locationiq.com; HttpOnly
+      X-Powered-By:
+      - LocationIQ
+      Access-Control-Allow-Origin:
+      - "*"
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 4ba123bf68b3c977-SEA
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"place_id":"121149","licence":"https:\/\/locationiq.com\/attribution","osm_type":"node","osm_id":"25248662","boundingbox":["39.746217","40.066217","116.2312757","116.5512757"],"lat":"39.906217","lon":"116.3912757","display_name":"Beijing,
+        Dongcheng District, Beijing, 100010, PRC","class":"place","type":"city","importance":0.85790772441967,"icon":"https:\/\/locationiq.org\/static\/images\/mapicons\/poi_place_city.p.20.png"},{"place_id":"208987011","licence":"https:\/\/locationiq.com\/attribution","osm_type":"relation","osm_id":"912940","boundingbox":["39.4416113","41.0595584","115.4172086","117.5079852"],"lat":"40.190632","lon":"116.412144","display_name":"Beijing,
+        PRC","class":"boundary","type":"administrative","importance":0.85729013518996,"icon":"https:\/\/locationiq.org\/static\/images\/mapicons\/poi_boundary_administrative.p.20.png"},{"place_id":"55956639","licence":"https:\/\/locationiq.com\/attribution","osm_type":"node","osm_id":"4524873575","boundingbox":["35.1703947","35.2503947","110.694381","110.774381"],"lat":"35.2103947","lon":"110.734381","display_name":"Beijing,
+        Linyi County, Yuncheng City, Shanxi, PRC","class":"place","type":"town","importance":0.41,"icon":"https:\/\/locationiq.org\/static\/images\/mapicons\/poi_place_town.p.20.png"},{"place_id":"61930212","licence":"https:\/\/locationiq.com\/attribution","osm_type":"node","osm_id":"5126135251","boundingbox":["24.116951","24.196951","107.4431828","107.5231828"],"lat":"24.156951","lon":"107.4831828","display_name":"Beijing,
+        Dahua Yao Autonomous County, Hechi City, Guangxi, PRC","class":"place","type":"town","importance":0.41,"icon":"https:\/\/locationiq.org\/static\/images\/mapicons\/poi_place_town.p.20.png"},{"place_id":"88182970","licence":"https:\/\/locationiq.com\/attribution","osm_type":"way","osm_id":"34878334","boundingbox":["7.0390436","7.0395729","125.5070449","125.5079188"],"lat":"7.0395729","lon":"125.5070449","display_name":"Beijing,
+        Rosalina Village III, Davao, 8024, Philippines","class":"highway","type":"residential","importance":0.21},{"place_id":"127321853","licence":"https:\/\/locationiq.com\/attribution","osm_type":"way","osm_id":"204421616","boundingbox":["25.8222842","25.8223886","-100.2400036","-100.2380537"],"lat":"25.8223487","lon":"-100.2390551","display_name":"Beijing,
+        Renaceres, Apodaca, Nuevo Le\u00f3n, 66610, Mexico","class":"highway","type":"residential","importance":0.21},{"place_id":"86044640","licence":"https:\/\/locationiq.com\/attribution","osm_type":"way","osm_id":"29086252","boundingbox":["14.5476223","14.5493338","121.1327202","121.1343671"],"lat":"14.5481779","lon":"121.1333501","display_name":"Beijing,
+        East Gate, San Juan, Taytay, Rizal, Calabarzon, 1920, Philippines","class":"highway","type":"residential","importance":0.21},{"place_id":"162133354","licence":"https:\/\/locationiq.com\/attribution","osm_type":"way","osm_id":"367969097","boundingbox":["14.38333","14.3833543","120.9306533","120.930881"],"lat":"14.38333","lon":"120.9306533","display_name":"Beijing,
+        Pallas Athena Executive Village Phase 2, Anabu I-D, Imus, Cavite, Calabarzon,
+        4103, Philippines","class":"highway","type":"residential","importance":0.21},{"place_id":"21628244","licence":"https:\/\/locationiq.com\/attribution","osm_type":"node","osm_id":"2188757768","boundingbox":["39.9510045","39.9511045","-75.198455","-75.198355"],"lat":"39.9510545","lon":"-75.198405","display_name":"Beijing,
+        Spruce Street, University City, Philadelphia, Philadelphia County, Pennsylvania,
+        19104, USA","class":"amenity","type":"restaurant","importance":0.111,"icon":"https:\/\/locationiq.org\/static\/images\/mapicons\/food_restaurant.p.20.png"},{"place_id":"12048900","licence":"https:\/\/locationiq.com\/attribution","osm_type":"node","osm_id":"1150696905","boundingbox":["50.9248789","50.9249789","6.9115744","6.9116744"],"lat":"50.9249289","lon":"6.9116244","display_name":"Beijing,
+        62, Lindenthalg\u00fcrtel, Lindenthal, Cologne, Cologne Government Region,
+        North Rhine-Westphalia, 50935, Germany","class":"amenity","type":"restaurant","importance":0.111,"icon":"https:\/\/locationiq.org\/static\/images\/mapicons\/food_restaurant.p.20.png"}]'
+    http_version: 
+  recorded_at: Tue, 19 Mar 2019 17:24:23 GMT
 recorded_with: VCR 4.0.0

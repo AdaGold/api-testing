@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://us1.locationiq.com/v1/search.php?format=json&key=<LOCATIONIQ_TOKEN>&q=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Date:
+      - Tue, 19 Mar 2019 17:25:33 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d89f01cadc1b57a7782240e4cc4a488a51553016332; expires=Wed, 18-Mar-20
+        17:25:32 GMT; path=/; domain=.locationiq.com; HttpOnly
+      X-Powered-By:
+      - LocationIQ
+      Access-Control-Allow-Origin:
+      - "*"
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 4ba125707ad62a3d-SEA
+    body:
+      encoding: UTF-8
+      string: '{"error":"Invalid Request"}'
+    http_version: 
+  recorded_at: Tue, 19 Mar 2019 17:25:33 GMT
+recorded_with: VCR 4.0.0
