@@ -1,4 +1,4 @@
-require_relative "spec_helper"
+require_relative "test_helper"
 
 describe "get_location" do
   it "can find a location" do
